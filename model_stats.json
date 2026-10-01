@@ -1,0 +1,97 @@
+{
+  "Gradient Boosting": {
+    "accuracy": 99.73,
+    "precision": 100.0,
+    "recall": 99.61,
+    "f1": 99.8,
+    "auc": 1.0,
+    "cv_mean": 99.78,
+    "cv_std": 0.09,
+    "best_params": {
+      "learning_rate": "0.05",
+      "max_depth": "5",
+      "n_estimators": "300",
+      "subsample": "0.9"
+    },
+    "needs_scaling": false,
+    "icon": "\ud83c\udfc6",
+    "color": "#4CAF50",
+    "winner": true
+  },
+  "Random Forest": {
+    "accuracy": 99.73,
+    "precision": 100.0,
+    "recall": 99.61,
+    "f1": 99.8,
+    "auc": 1.0,
+    "cv_mean": 99.8,
+    "cv_std": 0.12,
+    "best_params": {
+      "class_weight": "balanced",
+      "max_depth": "None",
+      "min_samples_split": "2",
+      "n_estimators": "200"
+    },
+    "needs_scaling": false,
+    "icon": "\ud83c\udf32",
+    "color": "#2196F3",
+    "winner": false
+  },
+  "XGBoost": {
+    "accuracy": 99.73,
+    "precision": 100.0,
+    "recall": 99.61,
+    "f1": 99.8,
+    "auc": 1.0,
+    "cv_mean": 99.85,
+    "cv_std": 0.09,
+    "best_params": {
+      "colsample_bytree": "0.8",
+      "learning_rate": "0.1",
+      "max_depth": "3",
+      "n_estimators": "200",
+      "reg_alpha": "0",
+      "subsample": "0.9"
+    },
+    "needs_scaling": false,
+    "icon": "\u26a1",
+    "color": "#FF9800",
+    "winner": false
+  },
+  "Logistic Regression": {
+    "accuracy": 97.96,
+    "precision": 98.82,
+    "recall": 98.24,
+    "f1": 98.53,
+    "auc": 0.998,
+    "cv_mean": 98.6,
+    "cv_std": 0.38,
+    "best_params": {
+      "C": "10",
+      "class_weight": "balanced",
+      "penalty": "l1",
+      "solver": "liblinear"
+    },
+    "needs_scaling": true,
+    "icon": "\ud83d\udcc9",
+    "color": "#E91E63",
+    "winner": false
+  },
+  "FusionModel": {
+    "accuracy": 99.73,
+    "precision": 100.0,
+    "recall": 99.61,
+    "f1": 99.8,
+    "auc": 1.0,
+    "cv_mean": 99.73,
+    "cv_std": 0.18,
+    "best_params": {
+      "architecture": "GB+RF+XGB\u2192LR",
+      "calibration": "isotonic"
+    },
+    "needs_scaling": false,
+    "icon": "\ud83d\udd2c",
+    "color": "#9C27B0",
+    "winner": false
+  }
+}

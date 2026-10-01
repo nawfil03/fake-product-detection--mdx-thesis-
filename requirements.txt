@@ -1,0 +1,10 @@
+streamlit
+plotly
+google-genai
+pandas
+numpy
+scikit-learn
+xgboost
+joblib
+# If the app shows a pickle or version error, pin scikit-learn, xgboost, numpy and joblib
+# to the versions printed in Colab, for example:  scikit-learn==1.6.1

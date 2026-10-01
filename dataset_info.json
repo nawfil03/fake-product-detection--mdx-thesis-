@@ -1,0 +1,20 @@
+{
+  "total_products": 3678,
+  "fake_count": 2557,
+  "genuine_count": 1121,
+  "feature_count": 52,
+  "sources": {
+    "amazon_ae_scraped": 1248,
+    "public_genuine": 380,
+    "public_luxury_price": 250,
+    "public_watch_replica": 250,
+    "public_designer_bag": 250,
+    "public_spelling_error": 250,
+    "public_supplement_fake": 249,
+    "public_review_bombing": 249,
+    "public_perfume_fake": 248,
+    "public_sneaker_fake": 248,
+    "public_electronics_clone": 248
+  },
+  "brand_db_size": 104
+}
